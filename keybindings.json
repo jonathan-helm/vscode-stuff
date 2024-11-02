@@ -1,0 +1,52 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    // ---------------------------------------------------------------------
+    // Deletions 
+    {
+        "key": "",
+        "command": "-editor.action.defineKeybinding",
+    },
+    // ---------------------------------------------------------------------
+    // Actions  
+    {
+        "key": "f6",
+        "command": "cmake.outline.configure"
+    },
+    {
+        "key": "alt+t s",
+        "command": "workbench.action.tasks.runTask"
+    },
+    // ---------------------------------------------------------------------
+    // Editor + Panel  
+    {
+        "key": "cmd+t cmd+f",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "cmd+j cmd+k",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "cmd+j cmd+j",
+        "command": "terminal.focus"
+    },
+    // ---------------------------------------------------------------------
+    // Configuration Launch
+    {
+        "key": "cmd+k cmd+g",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    {
+        "key": "cmd+f1",
+        "command": "toggleVim"
+    }
+    // ---------------------------------------------------------------------
+    // Project Based Keybindings 
+
+    // ---------------------------------------------------------------------
+    // New + Unsorted    
+]

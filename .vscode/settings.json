@@ -1,0 +1,29 @@
+{
+    "vim.hlsearch": true,
+    "extensions.ignoreRecommendations": true,
+    "python.venvPath": "~/Envs",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "cmake.showOptionsMovedNotification": false,
+    "C_Cpp.codeAnalysis.clangTidy.headerFilter": "",
+    "cmake.configureOnOpen": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.rustfmt.overrideCommand": null,
+    "python.defaultInterpreterPath": "/Users/jonathan/code/onthespot/.venv",
+    "window.zoomLevel": -2,
+    "[rust]": {
+        "editor.formatOnSave": true,
+    },
+    "vim.useSystemClipboard": true,
+    "github.copilot.editor.enableAutoCompletions": false,
+    "git.openRepositoryInParentFolders": "always"
+}
