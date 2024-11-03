@@ -10,7 +10,7 @@
 		"ms-python.debugpy",
 		//atariq11700.debugpy-old  For <3.9.0 
 		"ms-vscode.cmake-tools",
-
+		"pbkit.vscode-pbkit"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [

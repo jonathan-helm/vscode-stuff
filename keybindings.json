@@ -6,6 +6,11 @@
         "key": "",
         "command": "-editor.action.defineKeybinding",
     },
+    {
+        "key": "",
+        "command": "-workbench.action.terminal.runRecentCommand",
+        "when": ""
+    },
     // ---------------------------------------------------------------------
     // Actions  
     {
@@ -15,6 +20,31 @@
     {
         "key": "alt+t s",
         "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "workbench.action.terminal.runRecentCommand",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+shift+k",
+        "command": "quickInput.previous",
+        "when": "inQuickInput && quickInputType == 'quickPick'"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "quickInput.next",
+        "when": "inQuickInput && quickInputType == 'quickPick'"
+    },
+    {
+        "key": "cmd+shift+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+    },
+    {
+        "key": "cmd+shift+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
     },
     // ---------------------------------------------------------------------
     // Editor + Panel  
@@ -43,7 +73,7 @@
     {
         "key": "cmd+f1",
         "command": "toggleVim"
-    }
+    },
     // ---------------------------------------------------------------------
     // Project Based Keybindings 
 
