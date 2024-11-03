@@ -1,0 +1,19 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		"ms-python.pylint",
+		"mikoz.black-py",
+		"ms-python.python",
+		"ms-python.debugpy",
+		//atariq11700.debugpy-old  For <3.9.0 
+		"ms-vscode.cmake-tools",
+
+	],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": [
+		
+	]
+}
